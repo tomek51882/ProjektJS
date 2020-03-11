@@ -19,7 +19,7 @@ io.on('connection', function(socket){
     {
       socket.to('room3').emit('chat message', "Guess: "+msg);
     }
-    socket.emit('chat message', "Me: " + msg);
+    socket.emit('chat message', "Mefeswfsdfdsfe: " + msg);
   });
   socket.on('ch1', function(msg){
     if(io.sockets.adapter.sids[socket.id]['room2'])
